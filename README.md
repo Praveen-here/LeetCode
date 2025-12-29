@@ -284,3 +284,74 @@ def sliding_window_maximum(nums, k):
 5. **Follow-up optimizations** â†’ Usually asking for better time/space complexity
 
 **Remember:** Pattern recognition beats memorization. Master these frameworks, and 90% of coding problems become obvious!
+
+
+# Problem Solving Decision Guide 🚀
+
+Use this flow to quickly identify the **right approach or algorithm** when solving coding problems.
+
+---
+
+## START: Read the Problem Statement
+
+---
+
+## ❓ Question 1: What is the **CORE OPERATION**?
+
+---
+
+### 🔹 1. Checking Validity? (True / False result)
+
+- Can I use constraints to validate?
+  - ✅ **YES** → **Greedy** or **Simulation**
+  - ❌ **NO** → **Brute Force** or **Math**
+
+---
+
+### 🔹 2. Finding Something? (Single element, pair, index, etc.)
+
+- Is the data **sorted**?
+  - ✅ **YES** → **Binary Search**
+  - ❌ **NO** → **Hash Map** or **Linear Scan**
+
+---
+
+### 🔹 3. Counting Something? (Frequency, combinations, etc.)
+
+- What do I need?
+  - 🔢 **Exact frequency** → **Hash Map**
+  - ✔ **Just presence** → **Set** or **Hash Map**
+
+---
+
+### 🔹 4. Optimizing? (Maximum, minimum, best result, best path)
+
+- Can I reuse results of previous subproblems?
+  - ✅ **YES** → **Dynamic Programming**
+  - ❌ **NO** → **Greedy** or **Two Pointers**
+
+---
+
+### 🔹 5. Traversing a Structure?
+
+- What kind of structure?
+  - 📏 **Linear (Array / String / List)** → **Two Pointers** or **Sliding Window**
+  - 🌳 **Tree** → **DFS / BFS** or **Recursion**
+  - 🕸 **Graph** → **DFS / BFS** or **Graph Algorithms**
+
+---
+
+### 🔹 6. Mathematical Formula Based?
+
+- Do I need to explore values?
+  - ❌ **NO** → **Direct Formula / Math**
+  - ✅ **YES** → **Binary Search** or **Iteration**
+
+---
+
+## ✅ Final Tip
+
+> Always identify **what the problem is asking first** —  
+> then choose the **simplest valid approach** before optimizing.
+
+Happy Coding 💻🔥
